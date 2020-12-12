@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{9bd7e3ed-2608-4776-98e7-f2d3b9859461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\checksum">
+      <UniqueIdentifier>{c4ae5a1c-78b4-498c-9c8f-070c473288ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compute">
+      <UniqueIdentifier>{21fe27bf-b4ff-44d5-a903-55e74505b038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compute\checksum">
+      <UniqueIdentifier>{5208b616-cdaa-43bd-b90c-a1d01482c200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\png">
+      <UniqueIdentifier>{88bfd955-6e7c-423e-855a-ea10b6cfdeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ico">
+      <UniqueIdentifier>{2ef4d5a6-6bee-49e0-b021-3667f70acfe1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="integrity_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\checksum\Integrity.cpp">
+      <Filter>Source Files\ui\checksum</Filter>
+    </ClCompile>
+    <ClCompile Include="source\compute\checksum\checksum.cpp">
+      <Filter>Source Files\compute\checksum</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ui\checksum\integrity.h">
+      <Filter>Source Files\ui\checksum</Filter>
+    </ClInclude>
+    <ClInclude Include="source\compute\checksum\checksum.h">
+      <Filter>Source Files\compute\checksum</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Integrity.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\png\file_path.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="resources\png\icon_16.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="resources\png\icon_20.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="resources\png\icon_24.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="resources\png\icon_28.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="resources\png\icon_32.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="resources\ico\icon.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
